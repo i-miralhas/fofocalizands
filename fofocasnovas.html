@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envie sua fofoca - Fofocalizands</title>
+    <link rel="stylesheet" href="fofocasnovas.css">
+    <script src="fofocas.js" defer></script>
+</head>
+
+<body>
+
+    <h1>ENVIE SUA FOFOCA!</h1>
+    <hr>
+
+    <h2 class="subtitulo">SABE DE ALGUM BABADO? CONTA PRA GENTE!</h2>
+
+    <p class="introducao">
+        Viu alguma coisa suspeita? Descobriu um novo casal?
+        Tem um babado que ninguém sabe ainda?
+        Envie sua fofoca para o Fofocalizands!
+    </p>
+
+    <form id="formFofoca">
+
+        <h2>Qual é o tipo da fofoca?</h2>
+
+        <select id="tipo" required>
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option>Relacionamento</option>
+            <option>Briga</option>
+            <option>Flagra</option>
+            <option>Famosos</option>
+            <option>Outros</option>
+        </select>
+
+        <h2>Título da fofoca:</h2>
+
+        <input
+            id="titulo"
+            type="text"
+            placeholder="Ex: Fulano foi visto com Fulana!"
+            required>
+
+        <h2>Conta tudo:</h2>
+
+        <textarea
+            id="descricao"
+            placeholder="Escreva aqui todos os detalhes"
+            required></textarea>
+
+        <h2>Tem alguma foto?</h2>
+
+        <p>
+            Se tiver alguma foto para acompanhar a fofoca,
+            pode colocar aqui:
+        </p>
+
+        <input
+            type="file"
+            accept="image/*">
+
+        <br><br>
+
+        <button type="submit">ENVIAR FOFOCA</button>
+
+    </form>
+
+    <div id="resultado" aria-live="polite"></div>
+
+    <br>
+
+    <a href="fofocalizands.html">
+        Voltar para página inicial
+    </a>
+
+    <br><br>
+  
+
+</body>
+</html>

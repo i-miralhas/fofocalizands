@@ -1,0 +1,39 @@
+
+body {
+    background-color: #fff0db;
+    font-family: Garamond, serif;
+    color: #008120;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: rgb(255, 10, 157);
+}
+
+.noticia {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.imagens img {
+    display: block;
+    border-color: rgb(255, 10, 157);
+    border-style: solid;
+}
+
+.texto {
+    flex: 1;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+a {
+    font-size-adjust: calc(0.5);
+}

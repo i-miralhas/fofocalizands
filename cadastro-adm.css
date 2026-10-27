@@ -1,0 +1,123 @@
+
+body {
+    background-color: #fff0db;
+    font-family: Garamond, serif;
+    color: #008120;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: xxx-large;
+    color: rgb(255, 10, 157);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.subtitulo {
+    font-size: 3em;
+    color: rgb(255, 10, 157);
+}
+
+.introducao {
+    font-size: 1.5em;
+}
+
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffeabb;
+    border-radius: 15px;
+}
+
+select,
+input,
+textarea {
+    font-family: Garamond, serif;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 2px solid rgb(255, 10, 157);
+    border-radius: 8px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    width: auto;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    resize: vertical;
+}
+
+input[type="file"] {
+    width: 100%;
+    border: none;
+}
+
+button {
+    font-family: Garamond, serif;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(255, 10, 157);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d6007f;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 10, 157);
+    font-size: 1.3em;
+}
+
+a:hover {
+    color: #008120;
+}
+
+#resultado {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.fofoca-enviada {
+    background-color: #ffeabb;
+    border: 3px solid rgb(255, 10, 157);
+    border-radius: 15px;
+    padding: 25px;
+    overflow-wrap: anywhere;
+}
+
+.fofoca-enviada h2 {
+    color: rgb(255, 10, 157);
+}
+
+.fofoca-enviada img {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.sucesso {
+    color: #008120;
+    font-size: 1.5em;
+    font-weight: bold;
+}

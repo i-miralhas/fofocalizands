@@ -1,0 +1,64 @@
+body {
+    background-color: #fff0db;
+    font-family: garamond, serif;
+    color: #008120;
+}
+
+.logo {
+    background-color: #ffeabb;
+    text-align: center;
+    padding: 20px;
+}
+
+.link:hover {
+    color: rgb(255, 24, 162);
+}
+
+h1 {
+    font-style: italic;
+    font-size: 3em;
+    color: rgb(255, 10, 157);
+}
+
+.amigas {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.noticia {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+amiga-1.png {
+    width: 40px;
+    border-color: rgb(255, 10, 157);
+    border-style: solid;
+}
+
+.bbd {
+    font-size: 3em;
+    color: rgb(255, 10, 157);
+}
+
+.bbd2 {
+    font-size: 2.3em;
+}
+
+.link {
+    font-size: 1.5em
+}
+
+.cua-mau {
+    width: 600px;
+    border-color: rgb(255, 10, 157);
+    border-style: solid;
+}
+
+.formulario {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeabb;
+}
